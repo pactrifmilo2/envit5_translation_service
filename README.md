@@ -47,3 +47,6 @@ cd envit5_translation_service
 
 Install dependencies:
 pip install -r requirements.txt
+
+Run on project folder:
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
