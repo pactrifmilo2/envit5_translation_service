@@ -21,18 +21,25 @@ env/
 *.swo
 *~
 
+# Git
+.git/
+.gitignore
+
 # Environment files
 .env
 .env.local
 
-# Hugging Face cache
+# Documentation
+README.md
 
-# Logs
-*.log
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Docker volumes (if running locally)
-docker-volumes/
+# Logs
+*.log
